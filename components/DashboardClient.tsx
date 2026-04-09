@@ -87,7 +87,12 @@ export function DashboardClient({ initialRecords }: { initialRecords: Experiment
               <CartesianGrid strokeDasharray="3 3" vertical={false} />
               <XAxis dataKey="concentrationLabel" />
               <YAxis />
-              <Tooltip formatter={(value: number) => [`${value}%`, '平均得率']} />
+              <Tooltip
+  formatter={(value: any) => [
+    `${Number(value ?? 0).toFixed(2)}%`,
+    '平均得率'
+  ]}
+/>
               <Bar dataKey="mean" radius={[10, 10, 0, 0]}>
                 {summary.map((item) => {
                   const active = recommendation.concentrationValue === item.concentrationValue
