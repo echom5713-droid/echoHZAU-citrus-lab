@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>柑橘精油综合探究平台｜完整产品预览 V4</title>
+<style>
+:root{
+  --bg:#FBFDFF;--text:#0F172A;--muted:#5B6472;--soft:#94A3B8;--line:#E2E8F0;
+  --lab950:#050914;--lab900:#0B1222;--lab800:#1E293B;
+  --citrus:#F97316;--blue:#2563EB;--violet:#7C3AED;--green:#10B981;--cyan:#06B6D4;
+  --ease:cubic-bezier(.16,1,.3,1);
+  --shadow-premium:0 24px 70px rgba(15,23,42,.10);
+  --shadow-premium-lg:0 36px 100px rgba(15,23,42,.16);
+  --shadow-soft:0 8px 24px rgba(15,23,42,.05);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;color:var(--text);background:var(--bg);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif}
+a{text-decoration:none;color:inherit} button{font:inherit}
+.header{position:sticky;top:0;z-index:60;height:68px;border-bottom:1px solid rgba(15,23,42,.05);background:rgba(251,253,255,.84);backdrop-filter:blur(18px)}
+.wrap{max-width:1280px;margin:0 auto;padding:0 24px}
+.header-inner{height:68px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand{display:flex;align-items:center;gap:12px;min-width:260px}
+.logo{width:40px;height:40px;border-radius:16px;background:var(--lab950);color:white;display:grid;place-items:center;box-shadow:0 1px 2px rgba(15,23,42,.06);font-size:18px;font-weight:800}
+.brand-title{font-size:14px;font-weight:760;letter-spacing:-.02em}.brand-sub{margin-top:1px;font-size:11px;color:#64748B}
+.nav{display:flex;align-items:center;gap:14px;color:#475569;font-size:14px}
+.nav a,.nav button{border:0;background:transparent;color:#475569;cursor:pointer;padding:9px 10px;border-radius:999px;transition:all .28s var(--ease)}
+.nav a:hover,.nav button:hover{color:#0F172A;background:#F1F5F9}
+.nav .nav-primary{position:relative;overflow:hidden;color:white;background:linear-gradient(135deg,#2563EB,#4F46E5);box-shadow:0 12px 28px rgba(79,70,229,.16);padding:10px 16px;font-weight:700}
+.nav .nav-primary:hover{color:white;transform:translateY(-1px);box-shadow:0 16px 34px rgba(79,70,229,.22)}
+.nav .nav-secondary{border:1px solid #E2E8F0;background:white;padding:9px 14px;font-weight:650}
+
+/* Common */
+.section{padding:76px 0}.section-head{max-width:860px;margin-bottom:30px}
+.eyebrow2{font-size:11px;font-weight:760;letter-spacing:.22em;text-transform:uppercase;color:#2563EB}
+.section h2{font-size:38px;line-height:1.12;margin:12px 0 0;letter-spacing:-.045em}
+.section p{color:#5B6472;line-height:1.85}.muted{color:#64748B}.small{font-size:13px;line-height:1.8;color:#64748B}
+.card{border:1px solid rgba(226,232,240,.78);background:white;border-radius:30px;padding:28px;box-shadow:var(--shadow-premium);transition:transform .32s var(--ease),box-shadow .32s var(--ease),border-color .32s var(--ease)}
+.card:hover{transform:translateY(-4px);box-shadow:var(--shadow-premium-lg);border-color:rgba(37,99,235,.22)}
+.icon{width:54px;height:54px;border-radius:18px;color:white;display:grid;place-items:center;font-weight:800;box-shadow:var(--shadow-premium)}
+.btn{border:0;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:9px;border-radius:999px;padding:14px 20px;font-size:14px;font-weight:760;transition:all .3s var(--ease)}
+.btn-primary{color:white;background:linear-gradient(135deg,#2563EB,#4F46E5);box-shadow:0 16px 36px rgba(79,70,229,.20)}
+.btn-primary:hover{transform:translateY(-2px);box-shadow:0 20px 44px rgba(79,70,229,.26)}
+.btn-secondary{border:1px solid #E2E8F0;background:white;color:#334155;box-shadow:0 1px 2px rgba(15,23,42,.03)}
+.btn-secondary:hover{transform:translateY(-2px);box-shadow:var(--shadow-soft)}
+
+/* Hero */
+.hero{position:relative;overflow:hidden;background:radial-gradient(circle at 16% 14%,rgba(249,115,22,.14),transparent 24%),radial-gradient(circle at 84% 20%,rgba(37,99,235,.08),transparent 22%),linear-gradient(to bottom,#FBFDFF,rgba(246,249,252,.94),#F6F9FC)}
+.grid-bg{position:absolute;inset:0;background-image:linear-gradient(to right,rgba(15,23,42,.035) 1px,transparent 1px),linear-gradient(to bottom,rgba(15,23,42,.035) 1px,transparent 1px);background-size:28px 28px;mask-image:linear-gradient(to bottom,rgba(0,0,0,.82),transparent)}
+.hero-inner{position:relative;max-width:1280px;margin:0 auto;padding:86px 24px 96px;display:grid;grid-template-columns:.94fr 1.06fr;align-items:center;gap:62px}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;padding:6px 12px;border-radius:999px;border:1px solid #E2E8F0;background:#fff;box-shadow:0 1px 2px rgba(15,23,42,.03);color:#475569;font-size:11px;font-weight:760;letter-spacing:.18em;text-transform:uppercase}
+.dot{width:8px;height:8px;border-radius:999px;background:var(--green);animation:pulse 1.8s infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(16,185,129,.45)}70%{box-shadow:0 0 0 10px rgba(16,185,129,0)}100%{box-shadow:0 0 0 0 rgba(16,185,129,0)}}
+h1{margin:30px 0 0;font-size:76px;line-height:.94;font-weight:720;letter-spacing:-.065em}
+.grad-title{display:block;background:linear-gradient(135deg,var(--blue),#4F46E5,var(--violet));-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero-copy{max-width:730px;margin-top:30px;font-size:20px;line-height:1.78;color:#5B6472}
+.hero-tags{margin-top:30px;display:flex;flex-wrap:wrap;gap:12px}
+.tag{display:inline-flex;align-items:center;gap:8px;padding:10px 14px;border-radius:14px;border:1px solid rgba(226,232,240,.86);background:rgba(255,255,255,.86);backdrop-filter:blur(10px);box-shadow:0 1px 2px rgba(15,23,42,.03);color:#475569;font-size:12px;font-weight:650}
+.fade-up{opacity:0;transform:translateY(24px);animation:fadeUp .7s var(--ease) forwards}.d1{animation-delay:.06s}.d2{animation-delay:.12s}.d3{animation-delay:.18s}
+@keyframes fadeUp{to{opacity:1;transform:translateY(0)}}
+
+/* Preview */
+.preview-shell{position:relative;opacity:0;transform:translateY(30px) scale(.97);animation:previewIn .78s var(--ease) .2s forwards,float 6s var(--ease) 1s infinite}
+.preview-glow{position:absolute;inset:-24px;border-radius:46px;background:linear-gradient(135deg,rgba(191,219,254,.45),transparent,rgba(254,215,170,.45));filter:blur(28px)}
+.preview-card{position:relative;border-radius:36px;border:1px solid rgba(255,255,255,.84);background:rgba(255,255,255,.82);backdrop-filter:blur(22px);box-shadow:var(--shadow-premium-lg);padding:16px}
+.dark-window{border-radius:32px;background:var(--lab950);color:white;padding:20px;box-shadow:inset 0 1px 0 rgba(255,255,255,.08)}
+.window-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:20px}.traffic{display:flex;gap:8px}.traffic span{width:10px;height:10px;border-radius:999px;display:block}.window-title{font-size:10px;color:#64748B;letter-spacing:.2em;text-transform:uppercase}
+.preview-module,.mini-card{border:1px solid rgba(255,255,255,.08);background:var(--lab900);border-radius:26px;padding:16px;box-shadow:inset 0 1px 0 rgba(255,255,255,.08)}
+.module-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px}.module-pill{display:inline-flex;align-items:center;gap:8px;padding:6px 12px;border-radius:999px;background:rgba(255,255,255,.05);color:#CBD5E1;font-size:11px}.time-pill{font-size:10px;color:#94A3B8;padding:4px 10px;border-radius:999px;background:rgba(255,255,255,.05)}
+.video-card{position:relative;overflow:hidden;border-radius:18px;aspect-ratio:16/9;background:linear-gradient(135deg,#2563EB,#4F46E5,#7C3AED)}
+.video-card::after{content:"";position:absolute;inset:0;background:radial-gradient(circle at 20% 20%,rgba(255,255,255,.25),transparent 28%),linear-gradient(to top,rgba(0,0,0,.36),transparent 42%)}
+.video-shine{position:absolute;inset-block:0;left:-35%;z-index:2;width:32%;background:rgba(255,255,255,.2);filter:blur(18px);transform:rotate(12deg);animation:shine 4.8s var(--ease) infinite}
+.video-label{position:absolute;z-index:3;left:16px;top:16px;background:rgba(0,0,0,.25);backdrop-filter:blur(8px);border-radius:10px;color:white;font-size:11px;padding:6px 12px}
+.play-center{position:absolute;z-index:3;inset:0;display:grid;place-items:center}.play-circle{width:64px;height:64px;border-radius:999px;background:rgba(255,255,255,.18);backdrop-filter:blur(8px);display:grid;place-items:center;font-size:30px}
+.preview-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:16px}.mini-title{display:flex;gap:8px;align-items:center;font-size:14px;font-weight:650;margin-bottom:14px}
+.chart{height:144px;border-radius:18px;border:1px solid rgba(255,255,255,.05);background:rgba(0,0,0,.20);padding:24px 12px 30px;display:flex;align-items:flex-end;gap:10px;position:relative}.chart-caption{position:absolute;left:14px;bottom:8px;font-size:10px;color:#64748B}
+.bar{flex:1;border-radius:8px 8px 0 0;background:#34D399;display:flex;justify-content:center;height:8%;box-shadow:0 0 18px rgba(16,185,129,.18);animation:barGrow .9s var(--ease) forwards;position:relative}
+.bar:nth-child(1){--h:36%;animation-delay:.45s}.bar:nth-child(2){--h:58%;animation-delay:.58s}.bar:nth-child(3){--h:92%;animation-delay:.71s}.bar:nth-child(4){--h:74%;animation-delay:.84s}.bar span{position:absolute;bottom:-20px;font-size:10px;color:#94A3B8;white-space:nowrap}
+.chat{height:144px;border-radius:18px;border:1px solid rgba(255,255,255,.05);background:rgba(0,0,0,.20);padding:12px;display:flex;flex-direction:column;gap:8px;overflow:hidden}.bubble{font-size:12px;line-height:1.5;padding:8px 12px;border-radius:14px;max-width:92%}.bubble.q{background:white;color:#334155;border-top-left-radius:4px}.bubble.a{align-self:flex-end;background:#EFF6FF;color:#1E40AF;border-top-right-radius:4px;opacity:0;transform:translateY(12px);animation:bubbleIn .5s var(--ease) 2.35s forwards}.cursor{display:inline-block;margin-left:2px;width:1px;height:12px;background:#64748B;vertical-align:middle;animation:blink 1s infinite}
+.status-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:16px}.status{opacity:0;transform:translateY(12px);border:1px solid rgba(255,255,255,.05);background:rgba(255,255,255,.05);border-radius:18px;padding:14px 16px;box-shadow:inset 0 1px 0 rgba(255,255,255,.08);animation:statusIn .5s var(--ease) forwards}.status:nth-child(1){animation-delay:.95s}.status:nth-child(2){animation-delay:1.05s}.status:nth-child(3){animation-delay:1.15s}.status small{display:block;color:#64748B;font-size:10px;letter-spacing:.18em;text-transform:uppercase}.status strong{display:block;margin-top:8px;font-size:18px}
+.summary{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:16px}.summary-item{border:1px solid #E2E8F0;background:white;border-radius:18px;padding:16px;box-shadow:0 1px 2px rgba(15,23,42,.03)}.summary-item small{font-size:11px;color:#94A3B8;text-transform:uppercase;letter-spacing:.18em}.summary-item strong{display:block;margin-top:8px;font-size:16px;color:#0F172A}.summary-item p{margin:4px 0 0;color:#5B6472;font-size:12px;line-height:1.6}
+
+/* Role Cards */
+.role-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.magnetic{--accent:rgba(37,99,235,.52);position:relative;cursor:pointer;overflow:hidden;border-radius:30px;border:1px solid rgba(226,232,240,.78);background:rgba(255,255,255,.78);backdrop-filter:blur(18px);padding:1px;box-shadow:var(--shadow-premium);transition:transform .32s var(--ease),box-shadow .32s var(--ease)}
+.magnetic::before{content:"";position:absolute;inset:0;padding:1px;border-radius:30px;background:radial-gradient(360px circle at var(--x,50%) var(--y,50%),var(--accent),transparent 42%);opacity:0;transition:opacity .28s var(--ease);-webkit-mask:linear-gradient(#000,#000) content-box,linear-gradient(#000,#000);mask:linear-gradient(#000,#000) content-box,linear-gradient(#000,#000);-webkit-mask-composite:xor;mask-composite:exclude}.magnetic:hover{transform:translateY(-4px);box-shadow:var(--shadow-premium-lg)}.magnetic:hover::before{opacity:1}.magnetic-inner{position:relative;height:100%;border-radius:29px;background:rgba(255,255,255,.90);padding:26px}.role-top{display:flex;justify-content:space-between;align-items:flex-start}.role-icon{width:56px;height:56px;border-radius:18px;color:white;display:grid;place-items:center;font-size:24px;box-shadow:var(--shadow-premium)}.role-chip{border:1px solid #E2E8F0;background:white;color:#64748B;border-radius:999px;padding:5px 12px;font-size:11px;font-weight:650}.role-card h3{margin:32px 0 0;font-size:26px;letter-spacing:-.04em}.role-sub{margin-top:8px;font-size:14px;font-weight:650;color:#64748B}.role-desc{margin-top:16px;color:#5B6472;font-size:14px;line-height:1.8}.continue{margin-top:30px;display:inline-flex;gap:8px;align-items:center;font-size:14px;font-weight:750;color:#0F172A}.role-card:hover .continue span{transform:translateX(4px)}.continue span{transition:transform .3s var(--ease)}
+
+/* Course Map */
+.map-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}.map-card{border:1px solid rgba(226,232,240,.78);background:white;border-radius:30px;padding:30px;box-shadow:var(--shadow-premium)}.map-card.dark{background:var(--lab950);color:white;border-color:rgba(255,255,255,.10);box-shadow:0 36px 100px rgba(5,9,20,.22);position:relative;overflow:hidden}.map-card.dark::before{content:"";position:absolute;inset:auto -20% -30% auto;width:280px;height:280px;background:rgba(37,99,235,.14);filter:blur(80px);border-radius:999px}.map-list{display:grid;gap:12px;margin-top:22px}.map-item{border:1px solid #E2E8F0;background:#F8FAFC;border-radius:18px;padding:14px 16px;display:flex;justify-content:space-between;gap:16px;font-size:14px;color:#475569}.dark .map-item{background:rgba(255,255,255,.05);border-color:rgba(255,255,255,.08);color:#CBD5E1}.map-item strong{color:#0F172A}.dark .map-item strong{color:white}
+
+/* Feature Matrix */
+.matrix-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.matrix-card h3{margin:22px 0 0;font-size:20px;letter-spacing:-.04em}.matrix-card p{font-size:14px;margin-top:12px}.matrix-icon{width:52px;height:52px;border-radius:18px;display:grid;place-items:center;color:white;font-size:18px;font-weight:900;box-shadow:var(--shadow-premium)}
+
+/* Preview Flow */
+.flow-shell{background:white;border:1px solid rgba(226,232,240,.78);border-radius:34px;padding:28px;box-shadow:var(--shadow-premium-lg)}
+.flow-tabs{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:22px}.flow-tab{border:1px solid #E2E8F0;background:#F8FAFC;color:#475569;border-radius:999px;padding:10px 14px;font-size:13px;font-weight:650;cursor:pointer;transition:all .3s var(--ease)}.flow-tab.active{background:var(--lab950);color:white;border-color:var(--lab950);box-shadow:var(--shadow-soft)}
+.flow-content{min-height:280px;border-radius:28px;background:#F8FAFC;border:1px solid #E2E8F0;padding:28px;display:grid;grid-template-columns:.9fr 1.1fr;gap:24px;align-items:center}.flow-kicker{font-size:11px;font-weight:760;letter-spacing:.22em;text-transform:uppercase;color:#2563EB}.flow-title{margin:10px 0 0;font-size:28px;letter-spacing:-.04em}.flow-desc{color:#5B6472;line-height:1.8;font-size:15px}.flow-visual{border-radius:28px;background:var(--lab950);color:white;min-height:230px;padding:22px;position:relative;overflow:hidden;box-shadow:inset 0 1px 0 rgba(255,255,255,.08)}.flow-visual::before{content:"";position:absolute;right:-20%;bottom:-40%;width:300px;height:300px;border-radius:999px;background:rgba(79,70,229,.18);filter:blur(90px)}.flow-mini-card{position:relative;z-index:1;border:1px solid rgba(255,255,255,.08);background:rgba(255,255,255,.05);border-radius:22px;padding:18px;margin-bottom:12px}
+
+/* Student/Teacher/AI/Infra */
+.showcase-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}.terminal-card{background:var(--lab950);border-radius:34px;padding:26px;color:white;box-shadow:0 36px 100px rgba(5,9,20,.28);position:relative;overflow:hidden}.terminal-card::before{content:"";position:absolute;right:-140px;top:-120px;width:360px;height:360px;background:rgba(249,115,22,.12);filter:blur(90px);border-radius:999px}.terminal-card.blue::before{background:rgba(37,99,235,.16)}.terminal-card .inner{position:relative;z-index:1}.form-row{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:14px}.input-box{border:1px solid rgba(255,255,255,.08);background:rgba(255,255,255,.05);border-radius:16px;padding:14px}.input-box small{display:block;color:#94A3B8;font-size:11px}.input-box strong{display:block;margin-top:7px;font-size:16px}.kpi-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:16px}.kpi{border:1px solid rgba(255,255,255,.08);background:rgba(255,255,255,.05);border-radius:18px;padding:16px}.kpi small{display:block;color:#94A3B8;font-size:11px}.kpi strong{display:block;margin-top:8px;font-size:22px}.safe-note{margin-top:18px;border:1px solid #BFDBFE;background:#EFF6FF;color:#1E40AF;border-radius:22px;padding:18px;font-size:14px;line-height:1.8}
+.ai-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.ai-chip{border:1px solid #E2E8F0;background:white;border-radius:22px;padding:18px;box-shadow:var(--shadow-soft);font-size:14px;line-height:1.7;color:#475569}.ai-chip strong{display:block;color:#0F172A;margin-bottom:6px}
+.infra-shell{border-radius:40px;background:radial-gradient(circle at 6% 8%,rgba(249,115,22,.08),transparent 28%),radial-gradient(circle at 90% 86%,rgba(79,70,229,.10),transparent 32%),var(--lab950);color:white;padding:44px;box-shadow:0 36px 100px rgba(5,9,20,.36);position:relative;overflow:hidden}.infra-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:28px}.infra-card{border:1px solid rgba(255,255,255,.10);background:rgba(255,255,255,.045);border-radius:26px;padding:22px;box-shadow:inset 0 1px 0 rgba(255,255,255,.08)}.infra-card h3{margin:0;font-size:18px}.infra-card p{font-size:13px;color:#94A3B8;margin-top:12px;line-height:1.8}
+
+/* Drawer */
+.drawer-bg{position:fixed;inset:0;z-index:100;display:none;justify-content:flex-end;background:rgba(5,9,20,.30);backdrop-filter:blur(10px)}.drawer-bg.open{display:flex}.drawer{width:min(100%,430px);height:100%;padding:24px;border-left:1px solid rgba(255,255,255,.7);background:rgba(255,255,255,.92);backdrop-filter:blur(28px);box-shadow:var(--shadow-premium-lg);transform:translateX(100%);animation:drawerIn .42s var(--ease) forwards}.drawer-head{display:flex;justify-content:space-between;align-items:center}.drawer-chip{display:inline-flex;gap:8px;align-items:center;border:1px solid #E2E8F0;background:white;border-radius:999px;padding:7px 12px;font-size:12px;font-weight:650;color:#475569}.close{border:1px solid #E2E8F0;background:white;border-radius:999px;width:36px;height:36px;cursor:pointer}.drawer-icon{margin-top:40px;width:56px;height:56px;border-radius:18px;display:grid;place-items:center;color:white;font-size:24px;box-shadow:var(--shadow-premium)}.drawer h2{margin:24px 0 0;font-size:34px;letter-spacing:-.04em}.drawer p{color:#5B6472;line-height:1.8}.profile{margin-top:28px;border:1px solid #E2E8F0;background:white;border-radius:28px;padding:20px;box-shadow:var(--shadow-soft)}.profile-row{margin-top:12px;border-radius:18px;background:#F8FAFC;padding:14px 16px;display:flex;justify-content:space-between;gap:16px;font-size:14px}.profile-btn{width:100%;margin-top:18px;display:flex;justify-content:center;gap:8px;align-items:center;border-radius:999px;padding:14px 18px;color:white;font-size:14px;font-weight:750;box-shadow:var(--shadow-premium)}.btn-orange{background:linear-gradient(135deg,#F97316,#F59E0B)}.btn-blue{background:linear-gradient(135deg,#2563EB,#4F46E5)}
+@keyframes previewIn{to{opacity:1;transform:translateY(0) scale(1)}}@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@keyframes shine{0%{transform:translateX(-140%) rotate(12deg)}45%,100%{transform:translateX(360%) rotate(12deg)}}@keyframes barGrow{to{height:var(--h)}}@keyframes bubbleIn{to{opacity:1;transform:translateY(0)}}@keyframes statusIn{to{opacity:1;transform:translateY(0)}}@keyframes blink{50%{opacity:0}}@keyframes drawerIn{to{transform:translateX(0)}}
+@media (max-width:1180px){.hero-inner,.map-grid,.flow-content,.showcase-grid{grid-template-columns:1fr}.role-grid,.matrix-grid,.infra-grid,.ai-grid{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:760px){.nav{gap:6px}.nav .nav-secondary{display:none}.brand{min-width:auto}.brand-sub{display:none}.hero-inner{padding:62px 20px 78px}h1{font-size:52px}.hero-copy{font-size:18px}.preview-grid,.status-grid,.summary,.role-grid,.matrix-grid,.infra-grid,.ai-grid,.kpi-grid{grid-template-columns:1fr}.form-row{grid-template-columns:1fr}}
+
+.theme-fixed-nav{position:fixed;left:50%;top:14px;transform:translateX(-50%);z-index:999;display:flex;gap:10px;padding:8px;border:1px solid rgba(226,232,240,.82);background:rgba(255,255,255,.86);backdrop-filter:blur(18px);border-radius:999px;box-shadow:0 16px 40px rgba(15,23,42,.10)}
+.theme-fixed-nav a{display:inline-flex;align-items:center;justify-content:center;padding:9px 14px;border-radius:999px;color:#334155;font-size:13px;font-weight:800;text-decoration:none}
+.theme-fixed-nav a:first-child{background:#050914;color:white}.theme-fixed-nav a:hover{background:#eff6ff;color:#1d4ed8}
+
+</style>
+</head>
+<body>
+<div class="theme-fixed-nav"><a href="/">← 返回首页</a><a href="/demo">立即体验</a><a href="/student/login">学生登录</a><a href="/teacher/login">教师登录</a></div>
+<header class="header">
+  <div class="wrap header-inner">
+    <div class="brand">
+      <div class="logo">C</div>
+      <div><div class="brand-title">柑橘精油综合探究平台</div><div class="brand-sub">高中自然科学 · 化学实验 · 抑菌观察 · AI 反馈</div></div>
+    </div>
+    <nav class="nav">
+      <a href="#demo-flow" class="nav-primary">立即体验</a>
+      <button class="nav-secondary" onclick="openDrawer('student')">学生入口</button>
+      <button class="nav-secondary" onclick="openDrawer('teacher')">教师入口</button>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="portal">
+    <div class="grid-bg"></div>
+    <div class="hero-inner">
+      <div>
+        <div class="eyebrow fade-up"><span class="dot"></span>高中自然科学综合探究 · 化学实验与 AI 反馈</div>
+        <h1 class="fade-up d1">探究，<span class="grad-title">从未如此清晰。</span></h1>
+        <div class="hero-copy fade-up d2">
+          面向高中阶段自然科学课程，以柑橘精油提取为载体，将水蒸气蒸馏、NH₄Cl 盐析分离、变量控制、数据分析与大肠杆菌抑菌观察整合为可记录、可比较、可反馈的学习过程。
+        </div>
+        <div class="hero-tags fade-up d3">
+          <div class="tag">NH₄Cl 盐析分离</div><div class="tag">变量控制与数据分析</div><div class="tag">大肠杆菌抑菌观察</div>
+        </div>
+      </div>
+
+      <div class="preview-shell">
+        <div class="preview-glow"></div>
+        <div class="preview-card">
+          <div class="dark-window">
+            <div class="window-head"><div class="traffic"><span style="background:#F87171"></span><span style="background:#FBBF24"></span><span style="background:#34D399"></span></div><div class="window-title">Live Inquiry System</div></div>
+            <div class="preview-module">
+              <div class="module-top"><div class="module-pill">微课核心片段</div><div class="time-pill">10:20</div></div>
+              <div class="video-card"><div class="video-shine"></div><div class="video-label">高中化学探究｜分离提纯</div><div class="play-center"><div class="play-circle">▶</div></div></div>
+              <div style="margin-top:16px"><div style="font-weight:750;font-size:14px">《柑橘精油的提取：水蒸气蒸馏与 NH₄Cl 盐析分离》</div><div style="margin-top:4px;color:#94A3B8;font-size:12px;line-height:1.7">以电解质、盐析、油水分层和控制变量为主线。</div></div>
+            </div>
+            <div class="preview-grid">
+              <div class="mini-card"><div class="mini-title">NH₄Cl 浓度—得率趋势</div><div class="chart"><div class="bar"><span>0%</span></div><div class="bar"><span>1%</span></div><div class="bar"><span>3%</span></div><div class="bar"><span>4%</span></div><div class="chart-caption">NH₄Cl 质量分数</div></div><div style="margin-top:12px;font-size:11px;color:#94A3B8;line-height:1.7">对照组、低盐组、适盐组与高盐组动态比较。</div></div>
+              <div class="mini-card"><div class="mini-title">AI 探究助教</div><div class="chat"><div class="bubble q"><span id="typed"></span><span class="cursor"></span></div><div class="bubble a">NH₄Cl 电离后提高水相离子强度，使疏水性挥发成分更容易从水相中分离，油水分层因此更明显。</div></div><div style="margin-top:12px;font-size:11px;color:#94A3B8;line-height:1.7">围绕高中知识点解释，不展开危险微生物操作细节。</div></div>
+            </div>
+            <div class="status-grid"><div class="status"><small>提交记录</small><strong>48 份</strong></div><div class="status"><small>有效数据</small><strong>42 份</strong></div><div class="status"><small>教师反馈</small><strong style="font-size:14px;color:#34D399">已生成</strong></div></div>
+          </div>
+          <div class="summary"><div class="summary-item"><small>提取</small><strong>NH₄Cl 梯度</strong><p>0% / 1% / 3% / 4%</p></div><div class="summary-item"><small>抑菌</small><strong>E. coli 观察</strong><p>对照组 + 精油乳液组</p></div><div class="summary-item"><small>闭环</small><strong>AI + 教师端</strong><p>诊断、统计、反馈</p></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section wrap" id="experience">
+    <div class="section-head"><div class="eyebrow2">Choose Your Path</div><h2>选择你的学习路径。</h2><p>不同角色从这里进入对应学习与教学场景。</p></div>
+    <div class="role-grid">
+      <a href="#demo-flow" class="magnetic role-card" style="--accent:rgba(37,99,235,.52)"><div class="magnetic-inner"><div class="role-top"><div class="role-icon" style="background:linear-gradient(135deg,#2563EB,#4F46E5)">▶</div><div class="role-chip">Recommended</div></div><h3>立即体验</h3><div class="role-sub">完整体验五步探究流程</div><div class="role-desc">微课学习、NH₄Cl 变量探究、得率分析、E. coli 抑菌观察与 AI 反馈。</div><div class="continue">继续 <span>→</span></div></div></a>
+      <div class="magnetic role-card" style="--accent:rgba(249,115,22,.52)" onclick="openDrawer('student')"><div class="magnetic-inner"><div class="role-top"><div class="role-icon" style="background:linear-gradient(135deg,#F97316,#F59E0B)">S</div><div class="role-chip">Student</div></div><h3>学生入口</h3><div class="role-sub">学习、记录、分析、提问</div><div class="role-desc">完成提取条件记录、得率计算、抑菌观察和 AI 实验诊断。</div><div class="continue">继续 <span>→</span></div></div></div>
+      <div class="magnetic role-card" style="--accent:rgba(16,185,129,.50)" onclick="openDrawer('teacher')"><div class="magnetic-inner"><div class="role-top"><div class="role-icon" style="background:linear-gradient(135deg,#10B981,#14B8A6)">T</div><div class="role-chip">Teacher</div></div><h3>教师入口</h3><div class="role-sub">组织、筛选、统计、反馈</div><div class="role-desc">查看班级数据、异常记录、抑菌观察分布和学生问题热点。</div><div class="continue">继续 <span>→</span></div></div></div>
+    </div>
+  </section>
+
+  <section class="section wrap" id="course">
+    <div class="section-head"><div class="eyebrow2" style="color:#F97316">Curriculum Mapping</div><h2>课程知识点在同一探究情境中自然展开。</h2><p>平台将高中化学实验、生物观察与数据分析组织在同一课程情境中，帮助学生从现象、变量和证据三个层面理解实验。</p></div>
+    <div class="map-grid">
+      <div class="map-card"><h3 style="margin:0;font-size:24px;letter-spacing:-.04em">化学主线：提取与分离</h3><div class="map-list"><div class="map-item"><span>水蒸气蒸馏</span><strong>混合物分离</strong></div><div class="map-item"><span>NH₄Cl 电离</span><strong>电解质与离子</strong></div><div class="map-item"><span>油水分层</span><strong>溶解性与盐析</strong></div><div class="map-item"><span>浓度梯度</span><strong>控制变量法</strong></div><div class="map-item"><span>得率计算</span><strong>数据处理</strong></div></div></div>
+      <div class="map-card dark"><h3 style="position:relative;z-index:1;margin:0;font-size:24px;letter-spacing:-.04em">交叉主线：抑菌观察</h3><div class="map-list" style="position:relative;z-index:1"><div class="map-item"><span>大肠杆菌</span><strong>原核生物</strong></div><div class="map-item"><span>抑菌圈</span><strong>生长受抑现象</strong></div><div class="map-item"><span>空白 / 乳化剂对照</span><strong>对照实验</strong></div><div class="map-item"><span>精油乳液浓度</span><strong>浓度变量</strong></div><div class="map-item"><span>异常污染标记</span><strong>实验可靠性</strong></div></div></div>
+    </div>
+  </section>
+
+  <section class="section wrap" id="features">
+    <div class="section-head"><div class="eyebrow2" style="color:#10B981">System Modules</div><h2>六大功能模块支撑完整课堂闭环。</h2><p>从学生记录、班级数据、AI 反馈到教师评价，平台围绕真实课堂过程形成连续的数据与教学支持。</p></div>
+    <div class="matrix-grid">
+      <div class="card matrix-card"><div class="matrix-icon" style="background:linear-gradient(135deg,#F97316,#F59E0B)">01</div><h3>学生探究记录台</h3><p>记录 NH₄Cl 浓度、蒸馏时间、精油质量、分层清晰度、乳化情况和抑菌观察数据。</p></div>
+      <div class="card matrix-card"><div class="matrix-icon" style="background:linear-gradient(135deg,#10B981,#14B8A6)">02</div><h3>班级数据看板</h3><p>自动汇总各浓度组得率、异常数据、分层现象和 E. coli 抑菌观察分布。</p></div>
+      <div class="card matrix-card"><div class="matrix-icon" style="background:linear-gradient(135deg,#2563EB,#4F46E5)">03</div><h3>AI 探究助教</h3><p>围绕电解质、盐析、乳化、变量控制和抑菌观察提供高中化解释与反馈。</p></div>
+      <div class="card matrix-card"><div class="matrix-icon" style="background:linear-gradient(135deg,#7C3AED,#2563EB)">04</div><h3>教师工作台</h3><p>查看学习进度、筛选异常记录、分析高频问题，并生成课堂反馈建议。</p></div>
+      <div class="card matrix-card"><div class="matrix-icon" style="background:linear-gradient(135deg,#0F172A,#1E293B)">05</div><h3>数据库记录</h3><p>保存提取条件、得率、分层评分、抑菌圈直径、污染标记和 AI 诊断结果。</p></div>
+      <div class="card matrix-card"><div class="matrix-icon" style="background:linear-gradient(135deg,#06B6D4,#2563EB)">06</div><h3>课程资源库</h3><p>沉淀微课视频、任务单、教师教案、安全说明和数据分析模板。</p></div>
+    </div>
+  </section>
+
+  <section class="section wrap" id="demo-flow">
+    <div class="section-head"><div class="eyebrow2">Interactive Preview Flow</div><h2>完整体验流程聚焦一条清晰的科学探究路径。</h2><p>学生可按五个步骤完成从微课学习到实验解释的完整体验，逐步理解提取、分离、观察与反馈之间的关系。</p></div>
+    <div class="flow-shell">
+      <div class="flow-tabs"><button class="flow-tab active" onclick="showFlow(0)">1 微课学习</button><button class="flow-tab" onclick="showFlow(1)">2 NH₄Cl 探究</button><button class="flow-tab" onclick="showFlow(2)">3 数据分析</button><button class="flow-tab" onclick="showFlow(3)">4 抑菌观察</button><button class="flow-tab" onclick="showFlow(4)">5 AI 反馈</button></div>
+      <div class="flow-content">
+        <div><div id="flowKicker" class="flow-kicker">Step 01</div><h3 id="flowTitle" class="flow-title">微课学习：水蒸气蒸馏与盐析分离</h3><p id="flowDesc" class="flow-desc">用短视频解释柑橘精油的挥发性、水蒸气蒸馏思路，以及 NH₄Cl 盐析辅助油水分层的观察要点。</p></div>
+        <div class="flow-visual" id="flowVisual"><div class="flow-mini-card"><strong>课程片段</strong><div style="margin-top:8px;color:#CBD5E1;font-size:14px">《柑橘精油的提取：水蒸气蒸馏与 NH₄Cl 盐析分离》</div></div><div class="flow-mini-card"><strong>知识点</strong><div style="margin-top:8px;color:#CBD5E1;font-size:14px">混合物分离、电解质、盐析、控制变量</div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section wrap" id="student-teacher">
+    <div class="section-head"><div class="eyebrow2" style="color:#F97316">Core Workspaces</div><h2>学生端与教师端共同构成课堂数据闭环。</h2><p>学生完成实验记录与思考，教师查看班级趋势与学习反馈，形成面向课堂的双端协同。</p></div>
+    <div class="showcase-grid">
+      <div class="terminal-card">
+        <div class="inner">
+          <div class="eyebrow2" style="color:#F97316">Student Workspace</div>
+          <h2 style="font-size:30px;margin:12px 0 0;letter-spacing:-.04em">学生探究记录台</h2>
+          <p style="color:#94A3B8;font-size:14px;line-height:1.8">保留原提交逻辑，字段升级为高中探究所需的提取条件、分层观察和抑菌结果。</p>
+          <div class="form-row">
+            <div class="input-box"><small>NH₄Cl 浓度</small><strong>3%</strong></div>
+            <div class="input-box"><small>蒸馏时间</small><strong>45 min</strong></div>
+            <div class="input-box"><small>精油得率</small><strong style="color:#34D399">1.46%</strong></div>
+            <div class="input-box"><small>E. coli 抑菌圈</small><strong>12.4 mm</strong></div>
+          </div>
+          <div class="safe-note" style="background:rgba(255,255,255,.06);border-color:rgba(255,255,255,.08);color:#CBD5E1">安全边界：抑菌观察以教师指导、教学安全菌株或教师提供图像数据为基础，平台侧重变量分析与结果解释。</div>
+        </div>
+      </div>
+      <div class="terminal-card blue">
+        <div class="inner">
+          <div class="eyebrow2" style="color:#60A5FA">Teacher Dashboard</div>
+          <h2 style="font-size:30px;margin:12px 0 0;letter-spacing:-.04em">教师数据工作台</h2>
+          <p style="color:#94A3B8;font-size:14px;line-height:1.8">继续沿用后台/看板思路，但面向课堂反馈：有效数据、异常记录、浓度趋势、学生问题热点。</p>
+          <div class="kpi-grid">
+            <div class="kpi"><small>提交人数</small><strong>48</strong></div>
+            <div class="kpi"><small>有效数据</small><strong>42</strong></div>
+            <div class="kpi"><small>异常标记</small><strong style="color:#FBBF24">6</strong></div>
+          </div>
+          <div class="form-row">
+            <div class="input-box"><small>最高均值得率组</small><strong>3% NH₄Cl</strong></div>
+            <div class="input-box"><small>高频问题</small><strong>乳化 / 盐析 / 对照组</strong></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section wrap" id="ai">
+    <div class="section-head"><div class="eyebrow2" style="color:#7C3AED">AI Teaching Guardrails</div><h2>AI 助教必须定向，而不是普通聊天框。</h2><p>AI 助教围绕固定的高中问题场景进行解释，强调证据意识、变量控制和实验安全边界。</p></div>
+    <div class="ai-grid">
+      <div class="ai-chip"><strong>为什么要加入 NH₄Cl？</strong>解释电解质、离子强度与盐析分离。</div>
+      <div class="ai-chip"><strong>为什么会出现乳化？</strong>从油水分散、搅拌和分层不充分解释。</div>
+      <div class="ai-chip"><strong>为什么要设置 0% 对照？</strong>强化控制变量和对照实验。</div>
+      <div class="ai-chip"><strong>抑菌圈越大越好吗？</strong>引导学生关注重复实验、扩散性和对照组。</div>
+      <div class="ai-chip"><strong>得率偏高可能是什么原因？</strong>提示水分混入、称量误差、容器皮重。</div>
+      <div class="ai-chip"><strong>Tween 80 会不会影响结果？</strong>解释乳化剂对照组的意义。</div>
+      <div class="ai-chip"><strong>数据异常如何处理？</strong>提示标记、复核、保留原始记录。</div>
+      <div class="ai-chip"><strong>如何写实验结论？</strong>强调证据链，而不是直接下绝对结论。</div>
+    </div>
+  </section>
+
+  <section class="section wrap" id="infra">
+    <div class="infra-shell">
+      <div class="eyebrow2" style="color:#34D399">Infrastructure First</div>
+      <h2 style="font-size:38px;line-height:1.14;margin:12px 0 0;letter-spacing:-.045em">稳定的系统底座支撑课堂连续运行。</h2>
+      <p style="max-width:760px;color:#94A3B8;line-height:1.85">平台在课堂演示、学生提交、教师查看和数据保存之间保持连续，确保实验数据可记录、可追踪、可复核。</p>
+      <div class="infra-grid">
+        <div class="infra-card"><h3>入口清晰</h3><p>学生、教师、体验与资源入口保持清楚分工，减少使用过程中的路径混乱。</p></div>
+        <div class="infra-card"><h3>提交稳定</h3><p>实验记录提交后可进入班级数据汇总，避免数据分散在纸面或多个文件中。</p></div>
+        <div class="infra-card"><h3>数据可追踪</h3><p>提取条件、得率、分层现象和抑菌观察统一沉淀，便于复核和课堂反馈。</p></div>
+        <div class="infra-card"><h3>演示更可靠</h3><p>网络波动时仍可保留本地记录，课堂展示与实验记录不因临时环境受阻。</p></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div id="drawerBg" class="drawer-bg" onclick="closeDrawer()">
+  <aside class="drawer" onclick="event.stopPropagation()">
+    <div class="drawer-head"><div class="drawer-chip">角色入口</div><button class="close" onclick="closeDrawer()">×</button></div>
+    <div id="drawerIcon" class="drawer-icon btn-orange">S</div><h2 id="drawerTitle">学生入口</h2><p id="drawerSubtitle">进入微课学习、探究记录、抑菌观察与 AI 提问。</p>
+    <div class="profile">
+      <div style="font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#94A3B8">Preview Profile</div>
+      <div class="profile-row"><span style="color:#64748B">账号</span><strong id="account" style="font-family:ui-monospace,monospace">student001</strong></div>
+      <div class="profile-row"><span style="color:#64748B">身份</span><strong id="identity">高中化学探究小组</strong></div>
+      <a id="profileBtn" href="#" class="profile-btn btn-orange">进入学生探究台 →</a>
+    </div>
+    <div style="margin-top:20px;border:1px solid #E2E8F0;background:#F8FAFC;border-radius:24px;padding:20px"><div style="font-weight:750">安全与课堂边界</div><p style="margin:8px 0 0;font-size:14px">抑菌观察模块以教师指导、教学安全菌株或教师提供图像数据为基础，平台侧重点是变量分析和结果解释。</p></div>
+  </aside>
+</div>
+
+<script>
+const fullText = "为什么加入 NH₄Cl 后油水分层更明显？";
+let idx = 0;
+const typed = document.getElementById("typed");
+const timer = setInterval(() => {
+  idx += 1;
+  typed.textContent = fullText.slice(0, idx);
+  if(idx >= fullText.length) clearInterval(timer);
+}, 72);
+
+document.querySelectorAll(".magnetic").forEach(card => {
+  card.addEventListener("mousemove", e => {
+    const rect = card.getBoundingClientRect();
+    card.style.setProperty("--x", `${e.clientX - rect.left}px`);
+    card.style.setProperty("--y", `${e.clientY - rect.top}px`);
+  });
+});
+
+function openDrawer(role){
+  const bg = document.getElementById("drawerBg");
+  const icon = document.getElementById("drawerIcon");
+  const title = document.getElementById("drawerTitle");
+  const sub = document.getElementById("drawerSubtitle");
+  const acc = document.getElementById("account");
+  const identity = document.getElementById("identity");
+  const btn = document.getElementById("profileBtn");
+  if(role === "teacher"){
+    icon.textContent = "T"; icon.className = "drawer-icon btn-blue";
+    title.textContent = "教师入口";
+    sub.textContent = "进入课程资源管理、班级数据分析和课堂反馈概览。";
+    acc.textContent = "teacher001"; identity.textContent = "高中自然科学课程教师";
+    btn.textContent = "进入教师工作台 →"; btn.className = "profile-btn btn-blue";
+  }else{
+    icon.textContent = "S"; icon.className = "drawer-icon btn-orange";
+    title.textContent = "学生入口";
+    sub.textContent = "进入微课学习、探究记录、抑菌观察与 AI 提问。";
+    acc.textContent = "student001"; identity.textContent = "高中化学探究小组";
+    btn.textContent = "进入学生探究台 →"; btn.className = "profile-btn btn-orange";
+  }
+  bg.classList.add("open");
+}
+function closeDrawer(){document.getElementById("drawerBg").classList.remove("open")}
+
+const flows = [
+  {k:"Step 01",t:"微课学习：水蒸气蒸馏与盐析分离",d:"用短视频解释柑橘精油的挥发性、水蒸气蒸馏思路，以及 NH₄Cl 盐析辅助油水分层的观察要点。",cards:[["课程片段","《柑橘精油的提取：水蒸气蒸馏与 NH₄Cl 盐析分离》"],["知识点","混合物分离、电解质、盐析、控制变量"]]},
+  {k:"Step 02",t:"NH₄Cl 变量探究：浓度改变，分层是否改变",d:"选择 0%、1%、3%、4% NH₄Cl 浓度组，记录得率、分层清晰度和乳化现象。",cards:[["变量组","0% / 1% / 3% / 4% NH₄Cl"],["记录字段","橘皮质量、蒸馏时间、精油质量、分层评分"]]},
+  {k:"Step 03",t:"数据分析：从单组结果到班级趋势",d:"平台汇总平均值、异常数据和趋势图，帮助学生用数据证据解释实验结果。",cards:[["自动计算","精油得率、组内平均、异常提示"],["图表输出","NH₄Cl 浓度—得率趋势、分层现象统计"]]},
+  {k:"Step 04",t:"抑菌观察：E. coli 生长受抑现象比较",d:"比较空白对照、乳化剂对照与精油乳液组的抑菌圈或生长评分，强调教学安全和教师指导。",cards:[["观察对象","大肠杆菌 E. coli 教学安全材料或教师提供数据"],["记录字段","抑菌圈直径、边缘清晰度、污染标记"]]},
+  {k:"Step 05",t:"AI 反馈：解释现象、定位误差、生成建议",d:"AI 围绕高中知识点给出启发式反馈，帮助学生理解盐析、乳化、对照实验和数据可靠性。",cards:[["反馈方向","得率是否合理、分层是否充分、抑菌观察是否支持假设"],["教师承接","高频问题、课堂反馈、后续探究建议"]]}
+];
+function showFlow(index){
+  document.querySelectorAll(".flow-tab").forEach((tab,i)=>tab.classList.toggle("active",i===index));
+  const f = flows[index];
+  document.getElementById("flowKicker").textContent = f.k;
+  document.getElementById("flowTitle").textContent = f.t;
+  document.getElementById("flowDesc").textContent = f.d;
+  document.getElementById("flowVisual").innerHTML = f.cards.map(c => `<div class="flow-mini-card"><strong>${c[0]}</strong><div style="margin-top:8px;color:#CBD5E1;font-size:14px">${c[1]}</div></div>`).join("");
+}
+</script>
+</body>
+</html>

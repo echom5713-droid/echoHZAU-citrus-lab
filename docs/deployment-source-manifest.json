@@ -1,0 +1,353 @@
+{
+  "captured_at_utc": "2026-10-19",
+  "source_directory": "/home/ubuntu/site-v214",
+  "node_version": "v22.22.2",
+  "startup_entry": "scripts/start-production.mjs",
+  "teaching_proxy": {
+    "public_port": 80,
+    "upstream": "127.0.0.1:3001"
+  },
+  "files": [
+    {
+      "path": "ARCHITECTURE_V12.md",
+      "size": 2158,
+      "sha256": "42f8a112d681bdddac05b330d32cd96e15248936624a728dd1c37868ade18aa6",
+      "published": false
+    },
+    {
+      "path": "ARCHITECTURE_V16.md",
+      "size": 2055,
+      "sha256": "7ae2423d74099a319bc0154c4442acc8cf5080e21d29fcadab3bf0e7953b8de7",
+      "published": false
+    },
+    {
+      "path": "DEEPSEEK_SETUP.md",
+      "size": 1535,
+      "sha256": "e8bd64f28f6e5341b1aba651f5c34560e82817aa1e74c8e24619351d441088a6",
+      "published": false
+    },
+    {
+      "path": "DEPLOY_HK.md",
+      "size": 1623,
+      "sha256": "7271951fd1a4b08becf78121e523b75b944d8d6904af47629c7cf7fac32528db",
+      "published": false
+    },
+    {
+      "path": "Dockerfile",
+      "size": 134,
+      "sha256": "f27867e56f0ef5f386720a8347b34e90191f49486d624a181e8f10a2ee4342b0",
+      "published": true
+    },
+    {
+      "path": "README.md",
+      "size": 3421,
+      "sha256": "d53384682b9e5f5f5396ab2674107e582449bce344fd1dcc93848b5fd15dfd85",
+      "published": false
+    },
+    {
+      "path": "RELEASE_V207.md",
+      "size": 460,
+      "sha256": "90b1e410f2f917b6dbf7a36a39da152d4bd99ac07209ff5b3fbb5f21dd953a9b",
+      "published": false
+    },
+    {
+      "path": "RELEASE_V208.md",
+      "size": 483,
+      "sha256": "cb6b42d03efe3c85d83bad9519b105435fefc8819ba1f637252250fc62b0a0d4",
+      "published": false
+    },
+    {
+      "path": "RELEASE_V210.md",
+      "size": 531,
+      "sha256": "8ac2cb77f9d629a77b06e8cfbc3b07d642ad59c9e3152ba6074176f81f1d9b4b",
+      "published": false
+    },
+    {
+      "path": "RELEASE_V211.md",
+      "size": 321,
+      "sha256": "e1afa25598ac2bc642e42b143498c9a1834f481989950a731a1dee5238ea72c4",
+      "published": false
+    },
+    {
+      "path": "RELEASE_V212.md",
+      "size": 317,
+      "sha256": "ce0e6b1c78025f3a4cf8551a7edba4c0f7d032790eabc1ebbb00c555baff3b8e",
+      "published": false
+    },
+    {
+      "path": "TEST_REPORT.md",
+      "size": 1020,
+      "sha256": "6dc645b52ac2419612ab82415ce36bad88094383f01eec5bebd1db63950978c6",
+      "published": false
+    },
+    {
+      "path": "docker-compose.yml",
+      "size": 267,
+      "sha256": "58c5976de4566849478ad4e46bad2153c7241139070b7ad36fb129c5a224a2a6",
+      "published": true
+    },
+    {
+      "path": "ecosystem.config.cjs",
+      "size": 212,
+      "sha256": "e37753b35d6a6fd8cc4596ad9a1bd6e83e6afbc1fd20843a79db6602bdb40e6e",
+      "published": true
+    },
+    {
+      "path": "package.json",
+      "size": 550,
+      "sha256": "92732f7babd9002ce675cac8e3e1d176b86ae2d322d0bbfff75d0600bc267f9e",
+      "published": true
+    },
+    {
+      "path": "public/client.js",
+      "size": 80338,
+      "sha256": "011cb89d9f2476b5137c673c00049edcf7a298ad10de3a8f381e15a2347ea9c4",
+      "published": true
+    },
+    {
+      "path": "public/i18n-dictionary.js",
+      "size": 88810,
+      "sha256": "ae2719b1b61601a2b440609579b5900616634396f9e52d697c91dc67285aca31",
+      "published": true
+    },
+    {
+      "path": "public/i18n.css",
+      "size": 624,
+      "sha256": "f37676c489095c9873453d987beef5818e2cb9f15a8bc20455c8f27c927cab21",
+      "published": true
+    },
+    {
+      "path": "public/i18n.js",
+      "size": 9051,
+      "sha256": "1257f312d3de1e9f1533a2804290357686cb22f0d91e8d364042ad2ee1debab8",
+      "published": true
+    },
+    {
+      "path": "public/materials/ecoli-inhibition.png",
+      "size": 290508,
+      "sha256": "308e2a78d46b8c823ddd17bde896c49c5e02c4ee10aaedfa99a0a51b02c9d3ba",
+      "published": false
+    },
+    {
+      "path": "public/materials/ir-spectrum.png",
+      "size": 63233,
+      "sha256": "cd56dd9e5f543d6b8b261015ce97833f91465bcd7ecf4dfff8efab755cc813fa",
+      "published": false
+    },
+    {
+      "path": "public/materials/preview-video-poster.svg",
+      "size": 4741,
+      "sha256": "d574c5986da892d46266e8223a14b07bfb545de94827586241a3fc0714b4104c",
+      "published": true
+    },
+    {
+      "path": "public/styles.css",
+      "size": 61009,
+      "sha256": "9280a966d4b04c97b4f5df3d51f77d80a513b2c59160b9c9c975032ec6cd76eb",
+      "published": true
+    },
+    {
+      "path": "public/theme.html",
+      "size": 43721,
+      "sha256": "a230180c1cf44550d29e84f6fddc61a2f3eff7b63dfa299ec798a86410b3adc2",
+      "published": true
+    },
+    {
+      "path": "scripts/check-port-error.mjs",
+      "size": 756,
+      "sha256": "d0497ba7fdc41256f9b697dfaf83dbdcdf46401f4caee7ff67f3f058fe500253",
+      "published": true
+    },
+    {
+      "path": "scripts/prepare-release.mjs",
+      "size": 2134,
+      "sha256": "9074070a751b3db530e348e686f5bb9645ae6adcd1c39a0cc9b49e6dada2e309",
+      "published": true
+    },
+    {
+      "path": "scripts/restore-db.mjs",
+      "size": 567,
+      "sha256": "cc7afcf0757e745da960da236acdb08e1b4dfbd1f5990b66e2ee5e65f3273ee7",
+      "published": true
+    },
+    {
+      "path": "scripts/restore-db.sh",
+      "size": 236,
+      "sha256": "d6a8a5581e40719a96e65da44eb923712390dc8b08110a5d5e7d7dc92edb81ea",
+      "published": true
+    },
+    {
+      "path": "scripts/security-check.mjs",
+      "size": 2733,
+      "sha256": "247136cffec5c04f49f3a0467899adc2268c0aee77ac18d5c3a71df3d5ceb213",
+      "published": true
+    },
+    {
+      "path": "scripts/smoke-test.mjs",
+      "size": 4050,
+      "sha256": "8844f0442a88d92cf6157c569766cb1fff2adbd1099904ea6a8f3109421c7765",
+      "published": true
+    },
+    {
+      "path": "scripts/start-production.mjs",
+      "size": 67,
+      "sha256": "203b2cc99e2a73a67e6151a8cd7c9795a0a608d52b44258854714c390efd98ee",
+      "published": true
+    },
+    {
+      "path": "server.js",
+      "size": 28753,
+      "sha256": "2d6cb2191f94707d3cd9e5ebf233d44bdce3e4943d4755f2853cea5b79d54f6b",
+      "published": true
+    },
+    {
+      "path": "src/lib/http.js",
+      "size": 5151,
+      "sha256": "b68cefcd885f572ce513b4d348a15d4a68c60d4a4bd6797673cc0813f494f642",
+      "published": true
+    },
+    {
+      "path": "src/lib/language.js",
+      "size": 2178,
+      "sha256": "d3d49cbf392e4fca2651bb5bbbc95dfb576d6776e90b813f33a5fda070b5f584",
+      "published": true
+    },
+    {
+      "path": "src/lib/security.js",
+      "size": 3620,
+      "sha256": "cd2dcc60256cbb0a10980d1086d3d8b92430828dd6d60f3811395e9ffec98de8",
+      "published": true
+    },
+    {
+      "path": "src/lib/storage.js",
+      "size": 20898,
+      "sha256": "959af73a158232ddc33b102ad1db98b5c2ea5602026efb2e0922ad68707283e1",
+      "published": true
+    },
+    {
+      "path": "src/lib/validators.js",
+      "size": 2787,
+      "sha256": "66ab9541f7916802507df77f3d3d2a257519080624b7e61d1de3396e9deef985",
+      "published": true
+    },
+    {
+      "path": "src/views/pages.js",
+      "size": 119920,
+      "sha256": "a01f0f5f2bb1361c8fd10b0a614c2b604a090a1b6d6f982a2bc1f9fd9147a733",
+      "published": true
+    },
+    {
+      "path": "start-local-preview.bat",
+      "size": 93,
+      "sha256": "562c6e2356383ed1e772ab64e4aa28db2250ae53312c0a8d893b5fbe140cd305",
+      "published": true
+    },
+    {
+      "path": "scripts/backup-db.mjs",
+      "size": 2026,
+      "sha256": "940d40c750a7f794e4edd13e7b442658a1b7b9524dba4d7e7f0936bc20c0a73c",
+      "published": true
+    },
+    {
+      "path": "scripts/backup-db.sh",
+      "size": 265,
+      "sha256": "fc67c91bfa8ada95d4c8c05e2f4bdc26c602c9b2db6e8193389f789eee3c1cb3",
+      "published": true
+    }
+  ],
+  "withheld_assets": [
+    {
+      "path": "public/materials/gc-ms-raw.doc",
+      "size": 158208,
+      "sha256": "1867d0dd4f8a442f2bf09f164236ccef394c0dd3c41aa125e905648218478664",
+      "reason": "media or document redistribution not verified"
+    },
+    {
+      "path": "public/materials/nh4cl-raw-data.docx",
+      "size": 46649,
+      "sha256": "b27eec27d2321c9beaf115b9ec61c519dcb714b6ccf2d95371da73a87533161f",
+      "reason": "media or document redistribution not verified"
+    },
+    {
+      "path": "public/materials/preview-video-real.mp4",
+      "size": 84597701,
+      "sha256": "a2f818b24873fd658c3a9bbe19efaa06feb116a92048c72543a23bafd67b3ac7",
+      "reason": "media or document redistribution not verified"
+    },
+    {
+      "path": "public/materials/preview-video.mp4",
+      "size": 644018,
+      "sha256": "c9637df234e36c7192d1eed22a45af2d1522d951f67f85430e43f855e4063634",
+      "reason": "media or document redistribution not verified"
+    },
+    {
+      "path": "public/models/limonene.glb",
+      "size": 2457456,
+      "sha256": "75fe9c4bb13090efd47f10eeeac639aeb7b1473749ebd56a25baef0081b687aa",
+      "reason": "media or document redistribution not verified"
+    },
+    {
+      "path": "public/materials/ecoli-inhibition.png",
+      "size": 290508,
+      "sha256": "308e2a78d46b8c823ddd17bde896c49c5e02c4ee10aaedfa99a0a51b02c9d3ba",
+      "reason": "image redistribution authorization not established"
+    },
+    {
+      "path": "public/materials/ir-spectrum.png",
+      "size": 63233,
+      "sha256": "cd56dd9e5f543d6b8b261015ce97833f91465bcd7ecf4dfff8efab755cc813fa",
+      "reason": "image redistribution authorization not established"
+    }
+  ],
+  "runtime_data_included": false,
+  "environment_values_included": false,
+  "public_http_checks": [
+    {
+      "path": "/static/client.js?v=v213-measure-i18n",
+      "status": 200,
+      "bytes": 80338,
+      "sha256": "011cb89d9f2476b5137c673c00049edcf7a298ad10de3a8f381e15a2347ea9c4",
+      "matches_copied_source": true
+    },
+    {
+      "path": "/static/i18n-dictionary.js?v=20261019",
+      "status": 200,
+      "bytes": 88810,
+      "sha256": "ae2719b1b61601a2b440609579b5900616634396f9e52d697c91dc67285aca31",
+      "matches_copied_source": true
+    },
+    {
+      "path": "/static/i18n.js?v=20261019",
+      "status": 200,
+      "bytes": 9051,
+      "sha256": "1257f312d3de1e9f1533a2804290357686cb22f0d91e8d364042ad2ee1debab8",
+      "matches_copied_source": true
+    },
+    {
+      "path": "/static/i18n.css?v=20261019",
+      "status": 200,
+      "bytes": 624,
+      "sha256": "f37676c489095c9873453d987beef5818e2cb9f15a8bc20455c8f27c927cab21",
+      "matches_copied_source": true
+    },
+    {
+      "path": "/static/styles.css?v=v213-measure",
+      "status": 200,
+      "bytes": 61009,
+      "sha256": "9280a966d4b04c97b4f5df3d51f77d80a513b2c59160b9c9c975032ec6cd76eb",
+      "matches_copied_source": true
+    },
+    {
+      "path": "/api/health",
+      "status": 200,
+      "version": "2.1.2-stable-admin-import",
+      "storage": "sqlite",
+      "dbMode": "sqlite"
+    }
+  ],
+  "source_recheck": {
+    "source_files": 41,
+    "changed_files": [],
+    "same_running_process_cwd": true
+  }
+}

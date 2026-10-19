@@ -1,0 +1,5 @@
+.citrus-language-switch{display:inline-flex;align-items:center;gap:2px;border:1px solid #dbe3ee;border-radius:999px;padding:2px;background:rgba(255,255,255,.9);white-space:nowrap;flex-shrink:0}
+.citrus-language-switch button{appearance:none;border:0;border-radius:999px;background:transparent;color:#475569;padding:6px 9px;font:600 12px/1.2 Inter,system-ui,sans-serif;cursor:pointer;min-height:28px}
+.citrus-language-switch button[aria-pressed=true]{background:#2563eb;color:#fff}
+.citrus-language-switch button:focus-visible{outline:2px solid #f97316;outline-offset:2px}
+@media print{.citrus-language-switch{display:none}}

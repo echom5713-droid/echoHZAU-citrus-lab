@@ -1,0 +1,13 @@
+services:
+  citrus-platform:
+    build: .
+    container_name: citrus-platform
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./data:/app/data
+      - ./uploads:/app/uploads
+    environment:
+      NODE_ENV: production
+      PORT: 3000

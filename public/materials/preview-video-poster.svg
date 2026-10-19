@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 576" role="img" aria-label="盐辅助水蒸气蒸馏法提取柑橘精油封面">
+  <defs>
+    <linearGradient id="paper" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fbf8df"/>
+      <stop offset=".5" stop-color="#f7f8ed"/>
+      <stop offset="1" stop-color="#fff1c8"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="48%" r="62%">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".95"/>
+      <stop offset=".58" stop-color="#fffbe8" stop-opacity=".68"/>
+      <stop offset="1" stop-color="#f7dd92" stop-opacity=".18"/>
+    </radialGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.4"/>
+    </filter>
+  </defs>
+  <rect width="1024" height="576" fill="url(#paper)"/>
+  <rect width="1024" height="576" fill="url(#glow)"/>
+  <path d="M-40 432C143 349 248 567 410 487c87-43 112-135 206-137 131-3 180 162 448 70" fill="none" stroke="#d9b24b" stroke-width="18" opacity=".35"/>
+  <path d="M-30 456C147 354 265 536 414 464c91-44 103-119 194-124 129-7 192 147 460 51" fill="none" stroke="#7bc8a7" stroke-width="12" opacity=".28"/>
+  <g opacity=".26" stroke="#b4a66b" fill="none" stroke-width="2">
+    <path d="M695 280h44l22 38-22 38h-44l-22-38z"/>
+    <path d="M743 315h54l28 48-28 48h-54l-28-48z"/>
+    <path d="M791 226h42l21 36-21 36h-42l-21-36z"/>
+    <path d="M690 331l-42 24m101-74 41-23m-8 111 45 28"/>
+    <path d="M593 292c26-34 68-60 120-77 55-18 113-22 155-14"/>
+  </g>
+  <g opacity=".38" stroke="#b8ad7c" fill="none" stroke-width="2">
+    <path d="M710 230h23l4 90h-31z"/>
+    <path d="M704 224h36"/>
+    <path d="M828 264h20l9 92h-39z"/>
+    <path d="M825 258h25"/>
+    <path d="M616 254c20 18 45 18 65 0v56h-65z"/>
+    <path d="M645 178v76"/>
+    <path d="M626 178h38"/>
+  </g>
+  <g transform="translate(760 14)">
+    <circle cx="60" cy="64" r="45" fill="#f9d94e"/>
+    <circle cx="130" cy="74" r="44" fill="#f6a027"/>
+    <circle cx="184" cy="122" r="49" fill="#f08325"/>
+    <circle cx="116" cy="134" r="42" fill="#f7e75b"/>
+    <circle cx="68" cy="157" r="39" fill="#83c447"/>
+    <g stroke="#3f8b35" stroke-width="2" fill="#6fbd42">
+      <path d="M28 24C-3 17-7 1 35 0c28 0 47 15 57 27-22 6-44 5-64-3z"/>
+      <path d="M183 26c28-22 51-15 69-5-18 18-45 27-69 5z"/>
+      <path d="M216 174c34-8 53 7 64 24-34 6-55-4-64-24z"/>
+    </g>
+    <g stroke="#fff7c6" stroke-width="3" opacity=".65">
+      <path d="M178 122h48M202 97v50M168 109l68 25M172 139l62-36"/>
+    </g>
+  </g>
+  <g transform="translate(355 407)">
+    <g>
+      <path d="M50 0C11 43 0 70 0 94c0 31 23 54 50 54s50-23 50-54C100 70 89 43 50 0z" fill="#f7c04b" opacity=".88"/>
+      <path d="M50 24C27 55 21 75 21 92c0 18 13 32 29 32s29-14 29-32c0-17-6-37-29-68z" fill="#fff4bf" opacity=".5"/>
+    </g>
+    <g transform="translate(90 36) scale(.68)">
+      <path d="M50 0C11 43 0 70 0 94c0 31 23 54 50 54s50-23 50-54C100 70 89 43 50 0z" fill="#4cb6cf" opacity=".7"/>
+    </g>
+    <g transform="translate(-72 18) scale(.62)">
+      <path d="M50 0C11 43 0 70 0 94c0 31 23 54 50 54s50-23 50-54C100 70 89 43 50 0z" fill="#e66c13" opacity=".9"/>
+    </g>
+    <circle cx="180" cy="96" r="15" fill="#f28e2b" opacity=".8"/>
+    <circle cx="210" cy="48" r="10" fill="#f28e2b" opacity=".78"/>
+    <circle cx="142" cy="24" r="12" fill="#68c6d7" opacity=".7"/>
+    <circle cx="120" cy="116" r="20" fill="#fff" opacity=".54" stroke="#c9d3bd"/>
+  </g>
+  <g transform="translate(738 76)" opacity=".38">
+    <ellipse cx="54" cy="42" rx="58" ry="38" fill="none" stroke="#b9aa75" stroke-width="3"/>
+    <ellipse cx="126" cy="76" rx="62" ry="39" fill="none" stroke="#b9aa75" stroke-width="3"/>
+    <ellipse cx="202" cy="63" rx="54" ry="35" fill="none" stroke="#b9aa75" stroke-width="3"/>
+    <circle cx="44" cy="42" r="10" fill="#d7aa45"/>
+    <circle cx="74" cy="41" r="10" fill="#d7aa45"/>
+    <circle cx="116" cy="76" r="11" fill="#d7aa45"/>
+    <circle cx="150" cy="77" r="11" fill="#d7aa45"/>
+    <circle cx="190" cy="63" r="10" fill="#d7aa45"/>
+  </g>
+  <text x="72" y="80" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="28" font-weight="700" fill="#0aa05a">高中化学综合实验</text>
+  <text x="76" y="224" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="54" font-weight="800" fill="#10a85e">盐辅助水蒸气蒸馏法</text>
+  <text x="76" y="292" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="54" font-weight="800" fill="#10a85e">提取柑橘精油</text>
+  <g opacity=".2" stroke="#aeb39b" fill="none" stroke-width="3" filter="url(#soft)">
+    <path d="M30 450l82 82m-42-18 75-75"/>
+    <path d="M168 438l-76 75m-4-43 76 0"/>
+  </g>
+</svg>
